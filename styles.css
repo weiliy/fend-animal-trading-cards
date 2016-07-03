@@ -1,0 +1,33 @@
+/* add your CSS here */
+body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+}
+body > div {
+	border: 1px solid rgba(199,199,199,1);
+	box-shadow: 6px 7px 0px 1px rgba(230, 230, 230, 0.58);
+	width: 300px;
+	padding: 8px;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.description {
+	border: 1px solid rgba(199,199,199,1);
+	padding: 20px 10px 20px 10px;
+}
+
+.description > p:first-child {
+	font-style: italic;
+}
+
+.description li span {
+	font-weight: bold;
+}
+
+
