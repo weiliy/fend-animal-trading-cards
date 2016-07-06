@@ -12,13 +12,13 @@ body > div {
 	background-color: #e0dbbb;
 }
 
-h3 {
+.title {
 	font-size: 26px;
 	font-weight: bold;
 	border: 1px;
 }
 
-h3 + img {
+.title + img {
 	padding-bottom: 10px;
 }
 
@@ -29,6 +29,14 @@ h3 + img {
 
 .description > p:first-child {
 	font-style: italic;
+}
+
+.description ul {
+	padding: 0px;
+}
+
+.description li {
+	list-style-type: none;
 }
 
 .description li span {
